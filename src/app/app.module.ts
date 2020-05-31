@@ -3,18 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './modules/home/home.component';
-import { AboutComponent } from './modules/about/about.component';
-import { ContactComponent } from './modules/contact/contact.component';
-import { GalleryComponent } from './modules/gallery/gallery.component';
-import { RegisterComponent } from './modules/register/register.component';
-import { SlickComponent } from './modules/slick/slick.component';
-import { SponsorsComponent } from './modules/sponsors/sponsors.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { RegisterComponent } from './components/register/register.component';
+import { SlickComponent } from './components/slick/slick.component';
+import { SponsorsComponent } from './components/sponsors/sponsors.component';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from './shared/component/header/header.component';
-import { FooterComponent } from './shared/component/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [

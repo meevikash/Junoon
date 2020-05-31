@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Junoon1"
+    }
+  },
+  "defaultProject": "Junoon1",
+  "cli": {
+    "analytics": false
+  }
 }

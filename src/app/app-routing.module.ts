@@ -1,54 +1,46 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AppComponent } from './app.component';
-import { HomeComponent } from './modules/home/home.component';
-import { AboutComponent } from './modules/about/about.component';
-import { ContactComponent } from './modules/contact/contact.component';
-import { GalleryComponent } from './modules/gallery/gallery.component';
-import { RegisterComponent } from './modules/register/register.component';
-import { SlickComponent } from './modules/slick/slick.component';
-import { SponsorsComponent } from './modules/sponsors/sponsors.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { RegisterComponent } from './components/register/register.component';
+import { SlickComponent } from './components/slick/slick.component';
+import { SponsorsComponent } from './components/sponsors/sponsors.component';
 
-
-const routes: Routes = [{
-  path: '',
-  component: AppComponent,
-  children: [{
+const routes: Routes = [
+  {
     path: '',
-    component: HomeComponent},
-    {
-      path: '',
-      redirectTo: 'about',
-      pathMatch: 'full'
-    },
-    {
-      path: 'about',
-      component: AboutComponent
-    },
-    {
-      path: 'contact',
-      component: ContactComponent
-    },
-    {
-      path: 'gallery',
-      component: GalleryComponent
-    },
-    {
-      path: 'register',
-      component: RegisterComponent
-    },
-    {
-      path: 'slick',
-      component: SlickComponent
-    },
-    {
-      path: 'sponsors',
-      component: SponsorsComponent
-  }]
-}];
+    redirectTo: 'about',
+    pathMatch: 'full',
+  },
+  {
+    path: 'about',
+    component: AboutComponent,
+  },
+  {
+    path: 'contact',
+    component: ContactComponent,
+  },
+  {
+    path: 'gallery',
+    component: GalleryComponent,
+  },
+  {
+    path: 'register',
+    component: RegisterComponent,
+  },
+  {
+    path: 'slick',
+    component: SlickComponent,
+  },
+  {
+    path: 'sponsors',
+    component: SponsorsComponent,
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
