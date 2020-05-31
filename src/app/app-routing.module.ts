@@ -10,13 +10,12 @@ import { SponsorsComponent } from './components/sponsors/sponsors.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'about',
-    pathMatch: 'full',
-  },
-  {
-    path: 'about',
     component: AboutComponent,
   },
+  // {
+    // path: 'about',
+    // component: AboutComponent,
+  // },
   {
     path: 'contact',
     component: ContactComponent,
