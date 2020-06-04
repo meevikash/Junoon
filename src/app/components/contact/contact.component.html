@@ -1,7 +1,15 @@
-<div fxLayout="column" fxLayoutAlign="space-around center">
-    <h2>Contact</h2>
+<div class="topgap"></div>
+<div class="hgroup">
+    <h3> Contact </h3>
 </div>
 
+<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center center">
+    <div class="coordie">
+        <p> {{ title.name }} </p>
+        <p> {{ title.phone }} </p>
+        <p> {{ title.email }}@iitk.ac.in </p>
+    </div>
+</div>
 <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center center">
     <div class="coordie">
         <p> {{ title.name }} </p>
