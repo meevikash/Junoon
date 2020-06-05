@@ -6,10 +6,9 @@ import { Component} from '@angular/core';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent {
-isAvailable = true;
-products = [
-  {name: 'Delhi', district : 'alpha'},
-  {name: 'Mumbai', district : 'beta' },
-  {name: 'Kolkata', district : 'gamma'},
+places = [
+  {name: 'Delhi', location : 'alpha'},
+  {name: 'Mumbai', location : 'beta' },
+  {name: 'Kolkata', location : 'gamma'},
  ]
 }

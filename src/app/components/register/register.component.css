@@ -1,10 +1,6 @@
-.topgap {
-    width: 100%;
-    height: 14vh;
-  }
   .hgroup {
-    margin-bottom: 100px;
     text-align: center;
+    margin-top: 14vh;
   }
   
   h3 {
@@ -12,4 +8,20 @@
     background-color: rgba(35, 10, 42, 0.85);
     margin: 0 auto;
     padding: 10px;
+    color: white;
+  }
+ .fram {
+    margin: 10px;
+    padding: 25px;
+    background-color: rgb(22, 22, 22);
+    background-color: rgba(22, 22, 22, 0.85);
+    text-align: center;
+  color: blanchedalmond;}
+  h4{
+    margin: 10px;
+    padding: 25px;
+    background-color: rgb(22, 22, 22);
+    background-color: rgba(22, 22, 22, 0.85);
+    text-align: center;
+  color: blanchedalmond;
   }

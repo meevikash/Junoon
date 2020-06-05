@@ -2,9 +2,8 @@
 <div class="hgroup">
     <h3> Register </h3>
 </div>
-<div *ngIf="isAvailable">Places</div>
-<div *ngFor="let product of products"><div>{{product.name}}</div><div>{{product.quantity}}</div></div>
 <h4> Guidelines </h4>
+<div class="fram">
       <ul>
         <li> To register your band for the prelims fill in the details of the band.</li>
         <li> In the city section fill in the city where you want to register for prelims.</li>
@@ -18,4 +17,6 @@
           multiple such links, send all links separated by a comma.
         </li>
       </ul>
+    </div>
       <h4> Register </h4>
+      <div *ngFor="let place of places"><div>{{place.name}}</div><div>{{place.location}}</div></div>
