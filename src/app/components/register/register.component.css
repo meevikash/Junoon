@@ -10,7 +10,7 @@
     padding: 10px;
     color: white;
   }
- .fram {
+ .fram,.row {
     margin: 10px;
     padding: 25px;
     background-color: rgb(22, 22, 22);
@@ -30,4 +30,7 @@
     background-color: rgba(22, 22, 22, 0.86);
     padding: 30px;
     width: 40vw;
+  }
+  .bottom{
+    margin-bottom: 14vh;
   }
