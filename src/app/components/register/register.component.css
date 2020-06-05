@@ -25,3 +25,9 @@
     text-align: center;
   color: blanchedalmond;
   }
+  .form {
+    background-color: rgb(22, 22, 22);
+    background-color: rgba(22, 22, 22, 0.86);
+    padding: 30px;
+    width: 40vw;
+  }

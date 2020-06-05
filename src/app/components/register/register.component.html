@@ -19,4 +19,97 @@
       </ul>
     </div>
       <h4> Register </h4>
-      <div *ngFor="let place of places"><div>{{place.name}}</div><div>{{place.location}}</div></div>
+      <form class="row">
+        <div class="form-group col-md-6">
+          <label for="bandName">Band Name</label>
+          <input type="text" class="form-control" id="bandName" placeholder="Band Name" name="bandname">
+          <div
+           class="alert alert-danger">
+            Name is required
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="bandEmail">Email address</label>
+          <input type="email" class="form-control" id="bandEmail" aria-describedby="emailHelp" placeholder="Enter email"
+                 name="email">
+          <div 
+               class="alert alert-danger">
+            Email is Invalid
+          </div>
+        </div>
+      <label for="citySelect">City</label>
+      <select class="form-control">
+<option>Bangalore</option>
+<option>Mumbai</option>
+<option>Delhi</option>
+<option>Hyderabad</option>
+<option>Indore</option>
+<option>Kolkata</option>
+<option>Nepal</option>
+<option>Pune</option>
+<option>Kohima</option>
+</select>
+<div 
+               class="alert alert-danger">
+            City is required
+          </div>
+        <div class="form-group col-md-6" >
+          <label >Member</label>
+          <input type="text" class="form-control" 
+
+                 >
+        </div>
+        <div class="form-group col-md-6">
+          <label for="phone"> Contact No. </label>
+          <input type="text" class="form-control" id="phone" placeholder="" name="phone"
+                required pattern="((\+?(91))|0)?\d{10}">
+          <div 
+               class="alert alert-danger">
+            Phone number is invalid
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label> Alternate No. </label>
+          <input type="text" class="form-control" id="altphone" placeholder="" name="altphone"
+                 pattern="((\+?(91))|0)?\d{10}">
+          <div
+               class="alert alert-danger">
+            Alternate Phone number is invalid
+          </div>
+        </div>
+        <div class="form-group col-md-12">
+          <label for="songLink"> Songs Link </label>
+          <input type="text" class="form-control" id="songLink" placeholder="http://myveryawesomesong.com" name="songs"
+                  >
+          <div 
+               class="alert alert-danger">
+            Songs Link is required
+          </div>
+        </div>
+        <div class="form-group col-md-12">
+          <label for="moresongLink"> More Songs Link </label>
+          <input type="text" class="form-control" id="moresongLink" placeholder="http://myveryawesomesong.com"
+                 name="moresongs"
+          >
+        </div>
+        <div class="form-group col-md-12">
+          <label for="fbLink"> Facebook Link </label>
+          <input type="text" class="form-control" id="fbLink" placeholder="https://www.facebook.com/synchronicity.iitk"
+                 name="fblink"
+                 >
+          <div 
+               class="alert alert-danger">
+            Facebook Link is required
+          </div>
+        </div>
+        <div class="form-group col-md-12">
+          <label for="otherLink"> Other Links </label>
+          <input type="text" class="form-control" id="otherLink" placeholder="" name="otherlinks"
+                 >
+        </div>
+        <button type="submit" class="btn btn-primary mx-auto"
+                >
+          Submit
+        </button>
+      </form>
+      
