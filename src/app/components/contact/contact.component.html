@@ -1,18 +1,18 @@
 <div class="hgroup">
-    <h3> Contact </h3>
+    <div class="label"> Contact </div>
 </div>
 
 <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center center">
     <div class="coordie">
         <p> {{ title.name }} </p>
         <p> {{ title.phone }} </p>
-        <p> {{ title.email }}@iitk.ac.in </p>
+        <a href="mailto:{{ title.email }}@iitk.ac.in?cc={{ title.email }}@iitk.ac.in">{{ title.email }}@iitk.ac.in</a>
     </div>
 </div>
 <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center center">
     <div class="coordie">
         <p> {{ title.name }} </p>
         <p> {{ title.phone }} </p>
-        <p> {{ title.email }}@iitk.ac.in </p>
+        <a href="mailto:{{ title.email }}@iitk.ac.in?cc={{ title.email }}@iitk.ac.in">{{ title.email }}@iitk.ac.in</a>
     </div>
 </div>

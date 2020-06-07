@@ -3,7 +3,7 @@
     margin-top: 14vh;
   }
   
-  h3 {
+  .label {
     background-color: rgb(22, 22, 22);
     background-color: rgba(35, 10, 42, 0.85);
     margin: 0 auto;
@@ -17,7 +17,7 @@
     background-color: rgba(22, 22, 22, 0.85);
     text-align: center;
   color: blanchedalmond;}
-  h4{
+  p,.container-fluid {
     margin: 10px;
     padding: 25px;
     background-color: rgb(22, 22, 22);

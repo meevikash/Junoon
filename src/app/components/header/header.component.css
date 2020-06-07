@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(41, 21, 223, 0.623));
 }
 
 nav {
@@ -18,7 +18,7 @@ nav .logo {
 }
 
 nav .menu {
-    text-align-last: center;
+    width: 100%;
 }
 
 nav .menu a {
@@ -29,5 +29,4 @@ nav .menu a {
 }
 
 nav .menu a:first-child {
-    color: red;
 }
