@@ -1,36 +1,29 @@
   .hgroup {
     text-align: center;
-    margin-top: 14vh;
+    margin-top: 8vh;
+  }
+  .wrapper,.container-fluid {
+    width: 100vw;
   }
   
-  .label {
-    background-color: rgb(22, 22, 22);
+  .form,.container-fluid {
+    background-color: rgba(72, 45, 194, 0.86);
+    padding: 30px;
+    color: white;
+    text-align: center;
+    width: 40vw;}
+    .heading{
+      background-color: rgba(68, 67, 87, 0.664);
+      padding: 10px;
+      color: white;
+      text-align: center;
+      width: 40vw;}
+  
+  .label{
     background-color: rgba(35, 10, 42, 0.85);
     margin: 0 auto;
     padding: 10px;
     color: white;
-  }
- .fram,.row {
-    margin: 10px;
-    padding: 25px;
-    background-color: rgb(22, 22, 22);
-    background-color: rgba(22, 22, 22, 0.85);
     text-align: center;
-  color: blanchedalmond;}
-  p,.container-fluid {
-    margin: 10px;
-    padding: 25px;
-    background-color: rgb(22, 22, 22);
-    background-color: rgba(22, 22, 22, 0.85);
-    text-align: center;
-  color: blanchedalmond;
-  }
-  .form {
-    background-color: rgb(22, 22, 22);
-    background-color: rgba(22, 22, 22, 0.86);
-    padding: 30px;
-    width: 40vw;
-  }
-  .bottom{
-    margin-bottom: 14vh;
+    
   }

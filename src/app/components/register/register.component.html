@@ -1,9 +1,9 @@
-<div class="topgap"></div>
 <div class="hgroup">
     <div class="label"> Register </div>
-</div>
-<p> Guidelines </p>
-<div class="fram">
+
+<div fxLayout="column" fxLayoutAlign="center center" fxLayoutWrap class="wrapper">
+<div class="heading"> Guidelines </div>
+<div class="rules form">
       <ul>
         <li> To register your band for the prelims fill in the details of the band.</li>
         <li> In the city section fill in the city where you want to register for prelims.</li>
@@ -18,79 +18,64 @@
         </li>
       </ul>
     </div>
-      
+    <div class="heading"> Registration Form </div>
       <div class="container-fluid">
-          <p> Registration Form </p>
-          <form #userForm="ngForm">
-              {{userForm.value | json}}
-                <div class="form-group col-md-12">
+          <form #junoon="ngForm">
+                <div class="form-group">
                 <label for="bandName">Band Name</label>
-                <input type="text" class="form-control" id="bandName" placeholder="Band Name" name="bandname" ngModel>
+                <input type="text" class="form-control"  placeholder="Band Name">
                 </div>
-                <div class="form-group col-md-12">
+                <div class="form-group ">
                 <label for="bandEmail">Email address</label>
-                <input type="email" class="form-control" id="bandEmail" aria-describedby="emailHelp" placeholder="Enter email"
-                       name="email" ngModel>
+                <input type="email" class="form-control" placeholder="Enter email">
                 </div>
 
-                <div class="form-group col-md-12">
+                <div class="form-group ">
                     <label>City Name</label>
-                    <select class="custom-select" ngModel>
+                    <select class="custom-select" >
                         <option selected>City</option>
                         <option *ngFor="let topic of topics">{{ topic }}</option>
                     </select>
                 </div>
             
-                <div class="form-group col-md-12">
+                <div class="form-group">
                     <label>Members</label>
-                    <select class="custom-select" ngModel>
+                    <select class="custom-select" >
                         <option selected>Member</option>
                         <option *ngFor="let member of members">{{ member }}</option>
                     </select>
                 </div>
-                <div class="form-group col-md-12">
+                <div class="form-group">
                 <label for="phone"> Contact No. </label>
-                <input type="text" class="form-control" id="phone" placeholder="" name="phone"
-                      required pattern="((\+?(91))|0)?\d{10}" ngModel>
+                <input type="text" class="form-control"placeholder="">
                  </div>
-                 <div class="form-group col-md-12">
+                 <div class="form-group">
                  <label> Alternate No. </label>
-                 <input type="text" class="form-control" id="altphone" placeholder="" name="altphone"
-                       pattern="((\+?(91))|0)?\d{10}" ngModel>
+                 <input type="text" class="form-control" placeholder="">
                  </div>
-                 <div class="form-group col-md-12">
+                 <div class="form-group">
                  <label for="songLink"> Songs Link </label>
-                 <input type="text" class="form-control" id="songLink" placeholder="http://yoursong.com" name="songs"
-                 ngModel   >
+                 <input type="text" class="form-control"placeholder="http://yoursong.com"
+                    >
                  </div>
-                 <div class="form-group col-md-12">
+                 <div class="form-group">
                  <label for="moresongLink"> More Songs Link </label>
-                 <input type="text" class="form-control" id="moresongLink" placeholder="http://yoursong.com"
-                       name="moresongs"        ngModel    >
+                 <input type="text" class="form-control" placeholder="http://yoursong.com" >
                  </div>
-                 <div class="form-group col-md-12">
+                 <div class="form-group">
                  <label for="fbLink"> Facebook Link </label>
-                 <input type="text" class="form-control" id="fbLink" placeholder="https://www.facebook.com/junoon.iitk"
-                       name="fblink" ngModel
-                       >
+                 <input type="text" class="form-control" placeholder="https://www.facebook.com/junoon.iitk">
                  </div>
-                 <div class="form-group col-md-12">
+                 <div class="form-group">
                  <label for="otherLink"> Other Links </label>
-                 <input type="text" class="form-control" id="otherLink" placeholder="" name="otherlinks" ngModel
-                       >
-                 </div>
-
-                 <div class="form-check mb-3">
-                     <input class="form-check-input" type="checkbox" ngModel>
-                     <label class="form-check-label">
-                         All Set
-                     </label>
+                 <input type="text" class="form-control"placeholder="">
                  </div>
 
                  <button type="submit" class="btn btn-primary mx-auto">
                    Submit Form
                  </button>
           </form>
+          </div>
       </div>
      
-      
+      </div>

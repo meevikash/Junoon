@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  options = ['Home', 'Contact', 'Gallery', 'Register', 'Sponsors'];
 
   constructor() { }
 

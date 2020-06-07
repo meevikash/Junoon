@@ -16,3 +16,6 @@
     position: absolute;
     top: 15vh;
 }
+body{
+    background: url("src\assets\1.jpg") 100% fixed;
+}
