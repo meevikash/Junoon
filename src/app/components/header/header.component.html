@@ -4,7 +4,11 @@
             <div class="fontsize">{{title}}</div>
         </div>
         <div class="menu" fxLayout="row" fxLayoutAlign="end center">
-            <a *ngFor="let option of options; select" routerLink="/">{{option}}</a>
+            <a *ngFor="let option of options; select" routerLink="/">{{options[0]}}</a>
+            <a *ngFor="let option of options; select" routerLink="/contact">{{options1}}</a>
+            <a *ngFor="let option of options; select" routerLink="/gallery">{{options2}}</a>
+            <a *ngFor="let option of options; select" routerLink="/register">{{options3}}</a>
+            <a *ngFor="let option of options; select" routerLink="/sponsors">{{options4}}</a>
         </div>
     </div>
 </div>
