@@ -11,13 +11,16 @@
     padding: 30px;
     color: white;
     text-align: center;
-    width: 40vw;}
+    width: 40vw;
+    border-radius: 12px;
+    }
     .heading{
       background-color: rgba(68, 67, 87, 0.664);
       padding: 10px;
       color: white;
       text-align: center;
-      width: 40vw;}
+      width: 40vw;
+    }
   
   .label{
     background-color: rgba(35, 10, 42, 0.85);

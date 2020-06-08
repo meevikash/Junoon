@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   options = ['Home', 'Contact', 'Gallery', 'Register', 'Sponsors'];
-
+  title = 'Junoon';
   constructor() { }
 
   ngOnInit(): void {
